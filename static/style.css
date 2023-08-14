@@ -1,0 +1,71 @@
+body {
+  font-family: "Handjet", cursive;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  height: 100vh;
+}
+
+.video-stream {
+  grid-row: span 5;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+img {
+  border-radius: 2%;
+}
+
+.stream-controls {
+  display: flex;
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.status {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.status-title {
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.plots {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  grid-row: span 4;
+  flex-direction: column;
+}
+
+.plot-fig {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  grid-row: span 4;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.plots-title {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.site-footer {
+  grid-column: span 2;
+  text-align: center;
+}
