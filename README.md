@@ -5,6 +5,11 @@ To try it out run app.py. (This application was tested in Python 3.11.4)
 
 This solution won special mention at Caterpillar CODE-A-THON'23.
 
+# Sample Output
+
+![Alt text](Sample_output.png)
+
+
 # Dependencies
 * Flask
 * OpenCV
